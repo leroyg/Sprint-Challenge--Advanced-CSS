@@ -215,6 +215,11 @@ footer {
   -webkit-box-align: center;
           align-items: center;
 }
+@media (max-width: 500px) {
+  footer {
+    margin-top: 2rem;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
