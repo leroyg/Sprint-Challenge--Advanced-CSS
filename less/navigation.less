@@ -8,7 +8,7 @@ div.logo{
 }
 div.navigation {margin: 0 auto;
 display: flex;
-justify-content: space-between;
+.leroy-layout(space-evenly, row);
 width: 45%;}
 
 .navigation a{
@@ -25,14 +25,12 @@ div.logo{
     margin:0 auto;
 }
 #navigation-responsive {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    .nav-mixin;
     margin: 2% 0% 4% 0%;
     width:100%;
+}
     
     a{
         font-size:1.4rem;
     }
-}
 }

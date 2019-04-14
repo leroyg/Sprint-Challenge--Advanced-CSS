@@ -1,6 +1,15 @@
 @media (max-width: 500px) {
   width: 100%;
 }
+.nav-mixin {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+}
 .leroy-btn {
   text-align: center;
   height: 6rem;
@@ -197,8 +206,11 @@ div.navigation {
   margin: 0 auto;
   display: -webkit-box;
   display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
   width: 45%;
 }
 .navigation a {
@@ -227,7 +239,7 @@ div.navigation {
     margin: 2% 0% 4% 0%;
     width: 100%;
   }
-  #navigation-responsive a {
+  a {
     font-size: 1.4rem;
   }
 }
