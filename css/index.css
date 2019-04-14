@@ -148,6 +148,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 3.8rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -158,10 +161,19 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+a {
+  text-decoration: none;
+  color: #5E6164;
+}
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   header.intro {
@@ -248,6 +260,10 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  border-radius: 1rem;
+  border: 1px solid;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -256,4 +272,55 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .image-banner {
+    height: 10rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .top-content {
+    width: 95%;
+    margin: 0 auto;
+    line-height: 5rem;
+  }
+  #blast-off {
+    width: 100%;
+  }
+  img.sky {
+    display: none;
+  }
+  img.launch {
+    display: none;
+  }
+  #walk-responsive {
+    padding: 0;
+    width: 95%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  #walk-img-responsive {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #walk-text-responsive {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .btn {
+    background: #22283A;
+    color: #f6ebd4;
+  }
+  .btn #btn-responsive {
+    height: 8rem;
+    width: 95%;
+  }
+  .btn #btn-p-responsive {
+    text-align: center;
+    margin: 1rem;
+  }
 }
