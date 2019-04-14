@@ -1,24 +1,38 @@
-// Navigation code here// Navigation code here
-@media @phone {
-    header.intro {
-        display: flex;
-        flex-direction: column;
-    }
+// Navigation code here
+header.intro{
+    display: flex;
+    flex-direction: column;
+}
+div.logo{
+    margin:0 auto;
+}
+div.navigation {margin: 0 auto;
+display: flex;
+justify-content: space-between;
+width: 45%;}
 
-    div.logo {
-        margin: 0 auto;
-    }
+.navigation a{
+    margin: 3% 0%;
+    font-size: 1.4rem;
+}
 
-    div.navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin: 2% 0% 4% 0%;
-
-        a {
-            font-size: 1.4rem;
-            text-decoration: none;
-            color: @main-font-color;
-        }
+@media @phone{
+header.intro{
+    display: flex;
+    flex-direction: column;
+}
+div.logo{
+    margin:0 auto;
+}
+#navigation-responsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2% 0% 4% 0%;
+    width:100%;
+    
+    a{
+        font-size:1.4rem;
     }
+}
 }

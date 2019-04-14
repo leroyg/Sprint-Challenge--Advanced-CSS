@@ -1,6 +1,11 @@
 @media (max-width: 500px) {
   width: 100%;
 }
+.leroy-btn {
+  text-align: center;
+  height: 6rem;
+  width: 95%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -175,6 +180,28 @@ a {
     width: 100%;
   }
 }
+header.intro {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+div.logo {
+  margin: 0 auto;
+}
+div.navigation {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  width: 45%;
+}
+.navigation a {
+  margin: 3% 0%;
+  font-size: 1.4rem;
+}
 @media (max-width: 500px) {
   header.intro {
     display: -webkit-box;
@@ -186,7 +213,7 @@ a {
   div.logo {
     margin: 0 auto;
   }
-  div.navigation {
+  #navigation-responsive {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: horizontal;
@@ -195,11 +222,10 @@ a {
     -webkit-box-pack: space-evenly;
             justify-content: space-evenly;
     margin: 2% 0% 4% 0%;
+    width: 100%;
   }
-  div.navigation a {
+  #navigation-responsive a {
     font-size: 1.4rem;
-    text-decoration: none;
-    color: #5E6164;
   }
 }
 footer {
@@ -330,11 +356,12 @@ footer {
     margin-bottom: 0px;
     margin: 0 auto;
   }
-  .btn #btn-responsive {
-    height: 8rem;
+  #btn-responsive {
+    text-align: center;
+    height: 6rem;
     width: 95%;
   }
-  .btn #btn-p-responsive {
+  #btn-p-responsive {
     text-align: center;
     margin: 1rem;
   }
