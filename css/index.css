@@ -6,6 +6,9 @@
   height: 6rem;
   width: 95%;
 }
+.leroy-btn:hover {
+  background-color: #9c9c9c;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -301,6 +304,10 @@ footer {
   color: #f6ebd4;
   width: 33%;
 }
+.home .walk .btn:hover {
+  background-color: #9c9c9c;
+  text-transform: uppercase;
+}
 .home .walk #btn-p-responsive {
   margin-bottom: 0px;
   text-align: center;
@@ -360,6 +367,9 @@ footer {
     text-align: center;
     height: 6rem;
     width: 95%;
+  }
+  #btn-responsive:hover {
+    background-color: #9c9c9c;
   }
   #btn-p-responsive {
     text-align: center;
