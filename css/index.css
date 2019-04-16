@@ -188,7 +188,7 @@ a {
   margin: 0 auto;
 }
 @media (max-width: 500px) {
-  .container {
+  .container .container {
     width: 100%;
   }
 }
